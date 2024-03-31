@@ -1,0 +1,10 @@
+.lead__image {
+    object-fit: cover;
+    max-height: 615px;
+}
+
+@media screen and (max-width: 1130px) {
+    .lead__image {
+        max-height: 580px;
+    }
+}
