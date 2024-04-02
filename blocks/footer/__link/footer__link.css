@@ -5,8 +5,12 @@
     line-height: 18px;
     text-align: left;
     color: var(--txt-white);
+    transition: .5s;
     text-decoration: none;
     cursor: pointer;
+}
+.footer__link:hover{
+    opacity: 80%;
 }
 
 @media screen and (max-width: 700px) {

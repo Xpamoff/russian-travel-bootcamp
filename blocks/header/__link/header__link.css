@@ -7,10 +7,10 @@
     text-decoration: none;
     color: var(--txt-white);
     cursor: pointer;
+    transition: .5s;
 }
-
-.header__link:nth-child(1) {
-    text-decoration: underline;
+.header__link:hover{
+    opacity: 80%;
 }
 
 @media screen and (max-width: 700px) {
